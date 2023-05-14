@@ -1,0 +1,13 @@
+
+package com.back2sofia.demo.repository;
+
+
+import com.back2sofia.demo.model.Experiencia;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface IExperienciaRepository extends JpaRepository <Experiencia, Long> {
+    
+ 
+}
